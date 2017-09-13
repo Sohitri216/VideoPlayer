@@ -30,8 +30,8 @@
                     <td class="">
                         <div>
                             <button class="ml-5 btn-xs btn btn-primary btn-outline action-buttons" ng-click="vm.editTask(task)" ng-if="!task.archived">Edit</button>
-                            <button class="ml-5 btn-xs btn background-none btn-danger" ng-click="vm.archiveTask(task)" ng-if="!task.archived">Archive</button>
-                            <button class="ml-5 btn-xs btn background-none btn-danger" ng-click="vm.archiveTask(task)" ng-if="task.archived">Re-open</button>
+                            <button class="ml-5 btn-xs btn background-none btn-danger action-buttons" ng-click="vm.archiveTask(task)" ng-if="!task.archived">Archive</button>
+                            <button class="ml-5 btn-xs btn background-none btn-danger action-buttons" ng-click="vm.archiveTask(task)" ng-if="task.archived">Re-open</button>
                         </div>
                     </td>
                 </tr>
