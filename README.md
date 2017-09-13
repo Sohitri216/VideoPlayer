@@ -12,7 +12,7 @@ $ sudo apt-get install build-essential
 ```
 Clone the repo, Install the dependencies and devDependencies
 ```sh
-$ cd Frontend
+
 $ npm install gulp -g
 $ npm install bower -g
 $ npm install && bower install
