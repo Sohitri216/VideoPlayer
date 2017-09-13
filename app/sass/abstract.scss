@@ -1,0 +1,19 @@
+.abstract-header {
+    height: 55px;
+    background-color: $theme-color;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 0;
+    position: relative;
+    .back-button {
+        position: absolute;
+        color: #fff;
+        left: 30px;
+        cursor: pointer;
+    }
+    .heading-text {
+        color: #fff;
+        text-align: center;
+    }
+}
