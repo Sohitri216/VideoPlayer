@@ -21,7 +21,8 @@ var gulp = require('gulp'),
             'bower_components/jquery/dist/jquery.min.js',
             'bower_components/angular/angular.min.js',
             'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-            'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js'
+            'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
+            'bower_components/ng-youtube-embed/build/ng-youtube-embed.min.js'
         ]
     };
 

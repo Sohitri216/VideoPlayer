@@ -1,0 +1,15 @@
+<div class="text-center">
+<h3>Video Player</h3>
+<input type="text" class="form-control input-text" ng-model="urlLink" placeholder="Enter valid youtube URL">
+<button type="button" class="btn btn-success btn-sm action-button" ng-click="fetchURL()">Submit</button>
+<button type="button" class="btn btn-success btn-sm action-button" ng-click="clear()">Clear</button>
+<div class="youtube-player">
+<ng-youtube-embed 
+    video="videoURL" 
+    autoplay="true"
+    color="white"
+    disablekb="true">
+</ng-youtube-embed>
+</div>
+<div ng-if="invalid">Please Enter a valid Youtube URL</div>
+</div>

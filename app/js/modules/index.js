@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = angular.module('NotePad.modules', [
-    require('./public').name
+module.exports = angular.module('VideoPlayer.modules', [
+    require('./player').name
 ]);
