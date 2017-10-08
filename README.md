@@ -1,6 +1,6 @@
 # NotePad
 
-Frontend web app using Angular JS for users to perform CRUD operation on task management. 
+Frontend web app using Angular JS for users to play any youtube video by inserting the video URL. 
 ### instruction
 
 Requires [Node.js](https://nodejs.org/) v4+ to run.
@@ -19,3 +19,4 @@ $ npm install && bower install
 $ npm run watch
 ```
 Browse the www folder in your localhost
+# VideoPlayer
